@@ -8,6 +8,17 @@
 
 ---
 
+## ⚖️ Legal Disclaimer & Terms of Use
+
+By using this software or hosting it on your own servers, you agree to the following terms:
+
+1. **User Responsibility:** The developer of this project holds no responsibility for the content processed through this application. The end-user is solely responsible for ensuring they have the legal right, explicit permission, and necessary licenses to transcribe any audio file they upload.
+2. **Copyright & Privacy:** You agree **not** to use this tool to transcribe copyrighted materials (e.g., audiobooks, premium courses, movies) or private/confidential conversations without the explicit consent of all parties involved.
+3. **Data Privacy (Next.js Version):** This application is designed to act as a bridge. Uploaded audio files are **not** saved or stored on the local server/host. They are directly streamed to OpenAI's API for processing. However, please review [OpenAI's Privacy Policy](https://openai.com/policies/privacy-policy) regarding how they handle API data.
+4. **"As Is" Basis:** This software is provided "as is", without warranty of any kind. The developer is not liable for any legal disputes, copyright strikes, or API costs incurred by the user.
+
+---
+
 ## ✨ Features
 
 - **High Accuracy Transcription**: Powered by OpenAI's industry-leading `whisper-1` model.
