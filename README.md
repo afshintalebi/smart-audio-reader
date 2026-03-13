@@ -6,19 +6,6 @@
 
 **Smart Audio Reader** is a tiny web application built with Next.js that allows users to upload audio files, automatically detect the spoken language, and transcribe the audio into highly accurate text using OpenAI's Whisper API.
 
----
-
-## ⚖️ Legal Disclaimer & Terms of Use
-
-By using this software or hosting it on your own servers, you agree to the following terms:
-
-1. **User Responsibility:** The developer of this project holds no responsibility for the content processed through this application. The end-user is solely responsible for ensuring they have the legal right, explicit permission, and necessary licenses to transcribe any audio file they upload.
-2. **Copyright & Privacy:** You agree **not** to use this tool to transcribe copyrighted materials (e.g., audiobooks, premium courses, movies) or private/confidential conversations without the explicit consent of all parties involved.
-3. **Data Privacy (Next.js Version):** This application is designed to act as a bridge. Uploaded audio files are **not** saved or stored on the local server/host. They are directly streamed to OpenAI's API for processing. However, please review [OpenAI's Privacy Policy](https://openai.com/policies/privacy-policy) regarding how they handle API data.
-4. **"As Is" Basis:** This software is provided "as is", without warranty of any kind. The developer is not liable for any legal disputes, copyright strikes, or API costs incurred by the user.
-
----
-
 ## ✨ Features
 
 - **High Accuracy Transcription**: Powered by OpenAI's industry-leading `whisper-1` model.
@@ -27,16 +14,12 @@ By using this software or hosting it on your own servers, you agree to the follo
 - **Modern UI/UX**: Beautiful, responsive, and mobile-friendly design using Tailwind CSS with glassmorphism effects.
 - **Serverless Architecture**: Direct file streaming to OpenAI via Next.js App Router API without saving files to the local disk.
 
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: React, Next.js (App Router), Tailwind CSS
 - **Backend**: Next.js Route Handlers (`app/api`)
 - **AI Service**: OpenAI Node.js SDK
 - **Language**: JavaScript (ES6+)
-
----
 
 ## 🚀 Getting Started
 
@@ -77,16 +60,12 @@ Before you begin, ensure you have the following installed:
 5. **Open the App**:
    Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
----
-
 ## 💡 Usage
    1. Click on the dashed upload area to select an audio file from your device.
    2. Supported formats include: `mp3`, `mp4`, `mpeg`, `mpga`, `m4a`, `wav`, and `webm`.
    3. Ensure the file size is **under 25MB**.
    4. Click the **"Transcribe Audio"** button.
    5. Wait a few seconds for the AI to process the file. The detected language and the transcribed text will appear elegantly on the screen.
-
----
 
 ## 🗂️ Project Structure
    ```text
@@ -106,15 +85,21 @@ Before you begin, ensure you have the following installed:
    └── README.md                # Project documentation
    ```
 
----
-
 ## ⚠️ Important Notes & Limitations
 
 - **File Size Limit**: The OpenAI Whisper API currently accepts files up to 25MB. If you need to process larger files, you will need to implement an audio splitting logic in the backend.
 - **API Costs**: Whisper API is incredibly cheap but not free (approximately $0.006 per minute of audio). Keep an eye on your OpenAI platform usage dashboard.
 
----
-
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Feel free to use, modify, and distribute this project as you see fit!
+
+## ⚖️ Legal Disclaimer & Terms of Use
+
+By using this software or hosting it on your own servers, you agree to the following terms:
+
+1. **User Responsibility:** The developer of this project holds no responsibility for the content processed through this application. The end-user is solely responsible for ensuring they have the legal right, explicit permission, and necessary licenses to transcribe any audio file they upload.
+2. **Copyright & Privacy:** You agree **not** to use this tool to transcribe copyrighted materials (e.g., audiobooks, premium courses, movies) or private/confidential conversations without the explicit consent of all parties involved.
+3. **Data Privacy (Next.js Version):** This application is designed to act as a bridge. Uploaded audio files are **not** saved or stored on the local server/host. They are directly streamed to OpenAI's API for processing. However, please review [OpenAI's Privacy Policy](https://openai.com/policies/privacy-policy) regarding how they handle API data.
+4. **"As Is" Basis:** This software is provided "as is", without warranty of any kind. The developer is not liable for any legal disputes, copyright strikes, or API costs incurred by the user.
+
